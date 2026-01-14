@@ -106,7 +106,7 @@ const App = () => {
                   onClick={() => scrollToSection(contactRef)}
                   className="group flex items-center gap-2 px-10 py-4 bg-white text-black font-black rounded-2xl hover:bg-orange-500 hover:text-white transition-all duration-300 transform hover:-translate-y-1"
                 >
-                  HIRE ME <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                  HIRE ME <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform active:scale-95" />
                 </button>
                 <div className="flex items-center gap-5 ml-4 text-zinc-500">
                   <Github onClick={() => handleOpenLink('https://github.com/AsHLuRk')} className="cursor-pointer hover:text-white transition-colors" size={24} />
@@ -140,7 +140,7 @@ const App = () => {
                    <p className="font-mono text-zinc-400 text-lg leading-9">
                      I’m a 3rd-year IT Engineering student focused on learning the building blocks of the modern web. I enjoy experimenting with React interfaces, exploring the world of Blockchain, and understanding enterprise workflows through Salesforce. Currently, I’m just focused on building projects, refining my skills, and preparing for the 2026 internship cycle.
                      <br/><br/>
-                     <span className="text-green-500 font-bold animate-pulse tracking-widest uppercase text-sm">[ System Initialization Complete ]</span>
+                     <span className="text-green-500 font-bold animate-pulse tracking-widest uppercase text-sm"> System Initialization Complete </span>
                    </p>
                    <span className='flex gap-2'>
                   <div className=" text-[20px] border border-zinc-700 px-2 py-1 rounded text-zinc-500 bg-zinc-900/50">
